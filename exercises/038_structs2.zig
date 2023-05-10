@@ -33,7 +33,9 @@ pub fn main() void {
         .experience = 10,
     };
 
-    // Please add "Zump the Loud" with the following properties:
+    chars[1] = Character{ .class = Class.bard, .gold = 10, .health = 100, .experience = 20 };
+
+    // // Please add "Zump the Loud" with the following properties:
     //
     //     class      bard
     //     gold       10
